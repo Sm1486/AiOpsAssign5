@@ -11,3 +11,4 @@ pyyaml
 pytest
 httpx
 matplotlib
+mmh3

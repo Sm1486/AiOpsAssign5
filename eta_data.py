@@ -1,5 +1,3 @@
-"""eta_data.py -- shared data + model training for the Module 4 assignment (delivery-time ETA regression).
-Run:  python eta_data.py   -> data/eta_train.csv, data/eta_fresh.csv, data/eta_v1.joblib (Ridge), data/eta_v2.joblib (GradientBoosting)"""
 import numpy as np, pandas as pd, joblib, os
 from sklearn.linear_model import Ridge
 from sklearn.ensemble import GradientBoostingRegressor

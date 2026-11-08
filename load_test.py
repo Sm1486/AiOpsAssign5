@@ -1,9 +1,3 @@
-"""
-load_test.py -- generic closed-loop load generator for any model endpoint (REST / MLflow / Ray).
-  python load_test.py --url http://localhost:8000/v1/models/churn:predict --format rest
-  python load_test.py --url http://localhost:5001/invocations --format mlflow --concurrency 1 4 8
-Reports p50/p95/p99 latency, throughput, errors and which replicas / model versions answered.
-"""
 import argparse, json, time, statistics, collections, concurrent.futures as cf
 import pandas as pd, requests
 
